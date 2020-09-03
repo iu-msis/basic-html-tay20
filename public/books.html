@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="css/StyleSheet.css" rel="stylesheet">
+
+    <title>Book List</title>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="user.html">User</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="books.html">Books</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  </head>
+  <body>
+    <h1>Books</h1>
+    <br>
+    <div class="container-fluid">
+      <a href="img/book1.jpg" target = "_blank"> <img src="img/book1.jpg" alt="Book stack"class="picture"><cite>source: inc.com</cite>
+      </a>
+      <br>
+    <table id="booktable">
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Year Published</th>
+        <th>Publisher</th>
+        <th>Page Count</th>
+        <th>MSRP</th>
+      </tr>
+      <tr>
+        <td>Intro to IS</td>
+        <td>Mark Jones</td>
+        <td>2006</td>
+        <td>TechBooks</td>
+        <td>654</td>
+        <td>$159.99</td>
+      </tr>
+      <tr>
+        <td>Python for Beginners</td>
+        <td>Lucy Campell</td>
+        <td>2012</td>
+        <td>TechBooks</td>
+        <td>450</td>
+        <td>$89.99<td>
+      </tr>
+      <tr>
+        <td>HTML for Dummies</td>
+        <td>George Smith</td>
+        <td>2014</td>
+        <td>TechBooks</td>
+        <td>381</td>
+        <td>$99.99</td>
+      </tr>
+      <tr>
+        <td>Java is Cool</td>
+        <td>Pat Thompson</td>
+        <td>2010</td>
+        <td>Developer Publishing</td>
+        <td>339</td>
+        <td>$79.99</td>
+      </tr>
+      <tr>
+        <td>PHP is for Everyone</td>
+        <td>Marlee Price</td>
+        <td>2008</td>
+        <td>Developer Publishing</td>
+        <td>289</td>
+        <td>$119.99</td>
+      </tr>
+      <tr>
+        <td>Web Development for Kids</td>
+        <td>Peter Shock</td>
+        <td>2017</td>
+        <td>KidsLearn Publishing</td>
+        <td>117</td>
+        <td>$59.99</td>
+      </tr>
+    </table>
+    <br>
+    <h3>Enter a New Book:<h3>
+    <br>
+    <form>
+ <label for="title">Title:</label><br>
+ <input type="text" id="title" name="title"><br>
+ <label for="auth">Author:</label><br>
+ <input type="text" id="auth" name="auth"><br>
+ <label for="year">Year Published:</label><br>
+ <input type="text" id="year" name="year"><br>
+ <label for="pub">Publisher:</label><br>
+ <input type="text" id="pub" name="pub"><br>
+ <label for="year">Page Count:</label><br>
+ <input type="text" id="page" name="page"><br>
+ <label for="msrp">MSRP:</label><br>
+ <input type="text" id="msrp" name="msrp"><br>
+ <br>
+ <input type="submit" value="Submit">
+</form>
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

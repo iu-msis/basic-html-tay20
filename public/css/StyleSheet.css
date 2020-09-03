@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+    color: #00004d;
+}
+
+table {
+    text-align: center;
+    padding-top: 20px;
+    width: 100%
+}
+
+cite {
+    text-align: right;
+    font-size: 8px;
+}
+
+#booktable {
+    border: 1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.picture {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    text-align: left;
+    font-size: 15px;
+}
+
+p {
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+    font-family: helvetica, sans-serif;
+    color: #80002a;
+}
+
+input[type=text]{
+    width: 100%
+}
+
+#home{
+    font-weight: bold;
+}
+
+a:link{
+    color: #80002a;
+}
+
+a:hover{
+    text-decoration: underline;
+}
